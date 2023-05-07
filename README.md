@@ -19,7 +19,7 @@ Table of Contents
 ## Overview
 
 <p align="center">
-  <img src="https://eaglew.github.io/images/wikihow.png?raw=true" alt="Photo" style="width: 100%;"/>
+  <img src="https://eaglew.github.io/images/wikihow.png?raw=true" alt="Photo" style="width: 50%;"/>
 </p>
 
 ## Requirements
