@@ -1,0 +1,10 @@
+transformers==4.19.2
+sacrebleu
+wandb
+ftfy
+sentence_transformers
+spacy
+nltk
+filelock
+gpustat
+git+git://github.com/jmhessel/pycocoevalcap.git
