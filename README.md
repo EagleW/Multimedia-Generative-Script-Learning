@@ -55,7 +55,7 @@ To install the required Python dependencies, run the following command:
 pip install -r requirements.txt
 ```
 
-#### Data Description:
+#### Data Description
 
 [Multimedia Goal-oriented Generative Script Learning Dataset](https://drive.google.com/file/d/1lSo-Kr4edNas0_uTl1SvDnEGuPYl0Or9/view?usp=sharing) 
 This link contains a dataset consisting of multimedia steps for two categories: gardening and crafts. The dataset consists of a total of 79,089 multimedia steps across 5,652 tasks.
