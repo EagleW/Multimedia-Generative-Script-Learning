@@ -1,4 +1,4 @@
-# Multimedia-Generative-Script-Learning-for-Task-Planning
+# Multimedia Generative Script Learning for Task Planning
 
 [Multimedia Generative Script Learning for Task Planning](https://arxiv.org/abs/2208.12306)
 
