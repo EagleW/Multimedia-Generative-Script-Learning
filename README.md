@@ -5,7 +5,6 @@
 Accepted by Findings of the Association for Computational Linguistics: ACL 2023
 
 Table of Contents
-
 =================
 
 * [Overview](#overview)
