@@ -962,7 +962,6 @@ class ContrastiveBartForConditionalGeneration(BartForConditionalGeneration):
         max_r = 28
         encoder_outputs.retrieve_last_hidden_states = AttnGate(encoder_cls, batch_size, hidden_dim, mask_e, max_r, inputs_tensor.device, retrieve_outputs.last_hidden_state, modified_r_attention, encoder.gate_beta, encoder.attention_cls)
 
-        encoder_outputs.retrieve_last_hidden_states = retrieve_outputs.last_hidden_state
 
         model_kwargs["encoder_outputs"]: RetrieveBaseModelOutput = encoder_outputs
 
