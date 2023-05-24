@@ -127,7 +127,7 @@ Note that the training and testing scripts assume that the data is located in th
     title={Multimedia Generative Script Learning for Task Planning},
     author={Wang, Qingyun and Li, Manling and Chan, Hou Pong and Huang, Lifu and Hockenmaier, Julia and Chowdhary, Girish and Ji, Heng},
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = july,
+    month = {July},
     year = "2023",
     publisher = "Association for Computational Linguistics",
     }
