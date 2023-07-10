@@ -1,6 +1,6 @@
 # Multimedia Generative Script Learning for Task Planning
 
-[Multimedia Generative Script Learning for Task Planning](https://arxiv.org/abs/2208.12306)
+[Multimedia Generative Script Learning for Task Planning](https://aclanthology.org/2023.findings-acl.63/)
 
 Accepted by Findings of the Association for Computational Linguistics: ACL 2023
 
@@ -123,12 +123,22 @@ Note that the training and testing scripts assume that the data is located in th
 ## Citation
 
 ```bib
-@inproceedings{wang2022multimedia,
-    title={Multimedia Generative Script Learning for Task Planning},
-    author={Wang, Qingyun and Li, Manling and Chan, Hou Pong and Huang, Lifu and Hockenmaier, Julia and Chowdhary, Girish and Ji, Heng},
+@inproceedings{wang-etal-2023-multimedia,
+    title = "Multimedia Generative Script Learning for Task Planning",
+    author = "Wang, Qingyun  and
+      Li, Manling  and
+      Chan, Hou Pong  and
+      Huang, Lifu  and
+      Hockenmaier, Julia  and
+      Chowdhary, Girish  and
+      Ji, Heng",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = {July},
+    month = jul,
     year = "2023",
+    address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
-    }
+    url = "https://aclanthology.org/2023.findings-acl.63",
+    pages = "986--1008",
+    abstract = "Goal-oriented generative script learning aims to generate subsequent steps to reach a particular goal, which is an essential task to assist robots or humans in performing stereotypical activities. An important aspect of this process is the ability to capture historical states visually, which provides detailed information that is not covered by text and will guide subsequent steps. Therefore, we propose a new task, Multimedia Generative Script Learning, to generate subsequent steps by tracking historical states in both text and vision modalities, as well as presenting the first benchmark containing 5,652 tasks and 79,089 multimedia steps. This task is challenging in three aspects: the multimedia challenge of capturing the visual states in images, the induction challenge of performing unseen tasks, and the diversity challenge of covering different information in individual steps. We propose to encode visual state changes through a selective multimedia encoder to address the multimedia challenge, transfer knowledge from previously observed tasks using a retrieval-augmented decoder to overcome the induction challenge, and further present distinct information at each step by optimizing a diversity-oriented contrastive learning objective. We define metrics to evaluate both generation and inductive quality. Experiment results demonstrate that our approach significantly outperforms strong baselines.",
+}
 ```
