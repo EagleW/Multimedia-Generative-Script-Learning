@@ -120,6 +120,11 @@ These scripts will load the saved trained model and run the testing process.
 
 Note that the training and testing scripts assume that the data is located in the default directory. If you have stored the data in a different directory, you will need to modify the scripts accordingly.
 
+#### Checkpoints
+
+You can also download the [gardening checkpoint](https://drive.google.com/file/d/1PpOfHtsZWS2V05RqMOu-EOOTR8dLbzFR/view?usp=sharing) and the [crafts checkpoint](https://drive.google.com/file/d/13YxtAqHJFjw_9ZVGA0w1ixTGVhfr-L0z/view?usp=sharing) from google drive. 
+
+
 ## Citation
 
 ```bib
