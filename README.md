@@ -102,7 +102,7 @@ bash finetune_garden.sh
 ```
 These scripts will run the training process and save the trained model to specified folders.
 
-#### Test
+### Test
 
 To test the model on the crafts domain, run the following command:
 
@@ -120,7 +120,7 @@ These scripts will load the saved trained model and run the testing process.
 
 Note that the training and testing scripts assume that the data is located in the default directory. If you have stored the data in a different directory, you will need to modify the scripts accordingly.
 
-##### Evaluation
+#### Evaluation
 
 To evaluate the results, you need to first install the following packages:
 
@@ -137,7 +137,7 @@ For Bleu, Rouge, and Meteor, you can run `python eval_bleu_rouge_meteor.py`.
 For semantic similarity score, you can run `python eval_nli.py`.
 For BARScore, first move the `eval_bart.py` in to the `BARTScore` folder, and download the BARTScore checkpoint following [official website](https://github.com/neulab/BARTScore). Then, run `python eval_bart.py`.
 
-#### Checkpoints
+### Checkpoints
 
 You can also download the [gardening checkpoint](https://drive.google.com/file/d/1PpOfHtsZWS2V05RqMOu-EOOTR8dLbzFR/view?usp=sharing) and the [crafts checkpoint](https://drive.google.com/file/d/13YxtAqHJFjw_9ZVGA0w1ixTGVhfr-L0z/view?usp=sharing) from google drive. 
 
